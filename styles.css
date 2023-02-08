@@ -1,0 +1,85 @@
+
+body{
+    text-align: center;
+    font-family: fantasy, monospace;
+    color: white;
+    margin: 0px;
+    background-color: lightblue
+}
+
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 900px;
+    margin: 100px auto 0 auto;
+
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(images/norway.jpeg);
+
+}
+.hero-title{
+    margin: 40px;
+    background: blue;
+    padding: 4px 40px;
+    border-radius: 14px;
+}
+
+#activities{
+    background: blue;
+    width: 900px;
+    margin: auto;
+}
+.activities-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 900px;
+    margin:auto;
+    padding: 60px 0px;
+    background: gray;
+    color: blue;
+}
+.activity{
+    width: 200px;
+}
+.activity-img{
+    border-radius: 20%;
+    width: 150px;
+}
+
+#guide{
+    padding: 50px 0px;
+    background-color: whitesmoke;
+    width: 900px;
+    margin: 0 auto 100px auto;
+}
+.guide-box{
+    width: 500px;
+    margin: 30px auto;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-around;
+
+    background: gray;
+    border-bottom: 10px solid blue;
+    border-radius: 10px;
+    
+}
+.guide-img{
+    width: 150px;
+    height: min-content;
+    border-radius: 6px;
+    margin: 25px 15px 25px 0px;
+
+}
+.guide_contents{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
